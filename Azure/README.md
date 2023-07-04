@@ -23,6 +23,21 @@ Set up
 ### Set up shutdown time
 In case that we miss to stop the vm, this operation could be effective [this link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python#schedule-automatic-start-and-stop-preview)
 
+### Set up latex environment
 
+We often need updating:
+```sh
+sudo apt-get update
+```
 
+- For installing `TeX`
+```sh
+sudo apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+```
 
+- For installing `pandoc`
+```sh
+sudo apt-get install pandoc
+```
+
+https://nbconvert.readthedocs.io/en/latest/install.html#installing-tex
