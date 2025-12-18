@@ -23,6 +23,17 @@ Set up
 ### Set up shutdown time
 In case that we miss to stop the vm, this operation could be effective [this link](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-create-manage-compute-instance?tabs=python#schedule-automatic-start-and-stop-preview)
 
+### Set up `python` virtual environment
+
+- Prepare `requirements.txt` to define the `python` libraries such as `numpy`.
+- Execute the following commands to create `venv`:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install -r ./requirements.txt
+```
+
 ### Set up latex environment
 
 We often need updating:
