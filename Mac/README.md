@@ -1,5 +1,9 @@
 # Setup_Note
 
+## Finder -> Explorer like Windows
+
+https://www.binaryquest.com/apps/explorer
+
 ## Keyboard layout
 
 - How to change languages
@@ -12,10 +16,3 @@
 - Scroll direction
 
 ## Happy Hacking Keyboard reference
-
-
-## 
-
-
-
-
